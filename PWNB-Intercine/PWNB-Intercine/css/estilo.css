@@ -1,0 +1,421 @@
+body{
+    background-color: black;
+}
+
+/* menu */
+.navbar-brand {
+    color: white; 
+    font-size: 1.8em; 
+    font-weight: bold;
+    
+}
+
+.nav-link {
+    color: white; 
+}
+
+.cor1{
+    background-color: #1a327a;
+    width: 100%;
+}
+
+/* pagina Filmes */
+.filmes-page h2 a {
+    color: white; 
+    font-size: 0.8em; 
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px; 
+}
+
+.filmes-page h2 a.active {
+    color: #007bff;
+}
+
+/* Pagina Sobre */
+#sobre_nos {
+    color: white;
+    padding: 20px;
+}
+
+#sobre_nos h1 {
+    color: white; 
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#sobre_nos h2 {
+    color: rgb(92, 126, 183); 
+    font-size: 1.3em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#sobre_nos p {
+    color: white; 
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Pagina sinopse */
+.filme-sinopse {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.filme-sinopse img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sinopse {
+    flex: 1;
+}
+
+#sinopse h2 {
+    margin-bottom: 10px;
+}
+
+#sinopse p {
+    margin-top: 10px;
+}
+
+.informacoes-adicionais {
+    display: flex;
+}
+
+.informacoes-adicionais .coluna {
+    flex: 1;
+    padding: 0 20px;
+}
+
+#sinopse img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sinopse {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sinopse h2 {
+    color: #007bff;
+    font-size: 24px;
+}
+
+#sinopse p {
+    color:azure;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilo para as sessões */
+.sessoes {
+    margin-top: 20px;
+    color: white;
+    
+}
+
+/* Estilo para cada bloco de informações do shopping */
+.shopping-info {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3c454f; 
+    padding-bottom: 10px;
+}
+
+/* Estilo para o título de cada shopping */
+.shopping-info h3 {
+    color: #007bff;
+    font-size: 1.5em;
+}
+
+/* Estilo para a lista de sessões */
+.sessoes-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para cada item de sessão */
+.sessoes-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o link "Compre Aqui" */
+.sessoes-list a {
+    background-color: #007bff; 
+    color: #ffffff;
+    padding: 5px 10px; 
+    border-radius: 10px; 
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+
+/* estilo para quando clicar no botão */
+.sessoes-list a:hover {
+    background-color: #297fb8;
+}
+
+
+/* estilo para parte de sessões */
+.barra-datas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.localidade {
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+.opcoes-data {
+    display: flex;
+    align-items: center;
+}
+
+.opcoes-data label {
+    margin-right: 10px;
+}
+
+.sessoes {
+    text-align: left;
+}
+
+.sessoes h2 {
+    margin-bottom: 20px;
+}
+
+.shopping-info {
+    margin-bottom: 30px;
+}
+
+.sessoes-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sessoes-list li {
+    margin-bottom: 10px;
+}
+
+/* pagina cinemas */
+.container h2 {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.container h2.mb-4 {
+    margin-bottom: 25px;
+}
+
+.shopping-box {
+    border: 1px solid #3c454f;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+}
+
+.shopping-box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o link do shopping */
+.shopping-box a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilo para o título do shopping */
+.shopping-box h3 {
+    margin-top: 0;
+    font-size: 20px; /* Altere o tamanho da fonte conforme necessário */
+}
+
+/* Estilo para o texto da descrição do shopping */
+.shopping-box p {
+    color: white;
+    font-size: 14px; 
+}
+
+/* Adaptação para diferentes tamanhos de tela */
+@media (max-width: 767px) {
+    .shopping-box {
+        margin-right: 0;
+    }
+}
+
+/* pagina assentos */
+.pagina-assentos {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.pagina-assentos h1 {
+    margin-top: 20px;
+    color: black;
+    font-size: 29px;
+}
+
+.assentos-container {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr); 
+    grid-template-rows: repeat(13, 1fr);
+    gap: 4px;
+}
+
+.assento {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5573d8;
+    border: 1px solid #3854b0;
+    cursor: pointer;
+    
+}
+
+.assento.reservado {
+    background-color: rgb(174, 203, 44);
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.custom-navbar {
+    background-color: #1a327a; 
+    width: 100%;
+}
+
+.custom-navbar .navbar-brand {
+    color: #fff;
+}
+
+/* tela de login */
+
+/* Estilos específicos para a Página de Login */
+.pagina-login .container {
+    max-width: 500px; 
+    margin: 60px auto; 
+    padding: 20px;
+    background-color: rgb(22, 21, 21); 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px #3c454f; 
+}
+
+.pagina-login .form-label {
+    color: #343a40; 
+}
+
+.pagina-login .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.pagina-login .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #ffffff;
+}
+
+.pagina-login .form-label-custom {
+    color: white;
+}
+
+.pagina-login h1 {
+    color: white;
+}
+
+/* tela de tipo de ingresso */
+.pagina-ingressos .container {
+    max-width: 500px; 
+    margin: 60px auto; 
+    padding: 30px;
+    background-color: rgb(22, 21, 21); 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px #3c454f; 
+}
+
+.pagina-ingressos h2{
+    font-size: 16px;
+}
+
+.pagina-ingressos h1{
+    color: white;
+}
+
+.pagina-ingressos .form-label{
+    color: white;
+}
+
+.pagina-ingressos p{
+    color: white;
+}
+
+/* tela combo */
+.pagina-pipoca .container {
+    max-width: 1100px; 
+    margin: 80px auto; 
+    padding: 20px;
+    background-color: white; 
+    border-radius: 9px; 
+    box-shadow: 0 0 10px #3c454f; 
+}
+
+.pagina-pipoca button{
+    margin-top: auto;
+}
+
+/* pagina pagamento */
+.pagina-pagamento .container {
+    max-width: 800px; 
+    margin: 80px auto; 
+    padding: 20px;
+    background-color: white; 
+    border-radius: 9px; 
+    box-shadow: 0 0 10px #3c454f; 
+}
+
+/* pagina carrinho */
+.pagina-carrinho {
+    /* Estilos específicos para a página de carrinho */
+    background-color: #f5f5f5; /* Exemplo de cor de fundo diferente */
+    color: #333; /* Exemplo de cor de texto diferente */
+}
+
+/* pagina confirmação */
+.pagina-confirmacao h1{
+    color: white;
+}
+
+.pagina-confirmacao p{
+    color: white;
+}

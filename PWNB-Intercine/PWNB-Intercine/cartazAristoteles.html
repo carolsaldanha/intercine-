@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>INTERCINE</title>
+</head>
+
+<body>
+    
+      <!-- Menu -->
+      <nav class="navbar navbar-expand-lg cor1">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">INTERCINE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="filmes.html">Filmes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cinemas.html">Cinemas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <div class="container">
+        <div class="filme-sinopse">
+            <img src="img/Captura de tela 2023-12-03 151116.png" class="img-fluid" alt="Responsive image">
+            <div id="sinopse">
+                <h2>Os Segredos do Universo por Aristoteles e Dante</h2>
+                <p>Baseado no livro de Benjamin Alire Sáenz, ambientado em El Paso de 1987, é a história de dois adolescentes mexicanos-americanos solitários enquanto exploram sua amizade e o difícil caminho para a autodescoberta. Classificação indicativa 14 Anos. Contém drogas, linguagem imprópria, violência.</p>
+                <div class="informacoes-adicionais">
+                  <div class="coluna">
+                      <p><strong>Elenco:</strong> Max Pelayo, Reese Gonzales, Eugenio Derbez, Eva Longoria, Isabella Gomez, Julio César Chavez, Kevin Alejandro, Luna Blaise, Marlene Forte, Melissa Macedo, Veronica Falcón</p>
+                      <p><strong>Duração:</strong> 95 min</p>
+                      <p><strong>Diretor:</strong> Aitch Albert</p>
+                  </div>
+                  <div class="coluna">
+                      <p><strong>Distribuidora:</strong> Imagem Filmes</p>
+                      <p><strong>Gênero:</strong> Drama</p>
+                      <p><strong>Classificação:</strong> 14 Anos</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+        <br>
+        <!-- Seção de Sessões por Shopping -->
+        <div class="sessoes">
+          <h2>Sessões</h2>
+
+          <div class="container">
+            <div class="barra-datas">
+                <span class="localidade">São Paulo</span>
+                <div class="opcoes-data">
+                    <label for="data">Data:</label>
+                    <select id="data" name="data">
+                        <option value="01/12">01/12</option>
+                        <option value="02/12">02/12</option>
+                        <option value="03/12">03/12</option>
+                        <option value="04/12">04/12</option>
+                        <option value="05/12">05/12</option>
+                        <option value="06/12">06/12</option>
+                        <option value="07/12">07/12</option>
+                        <option value="08/12">08/12</option>
+                        <option value="09/12">09/12</option>
+                    </select>
+                </div>
+            </div>
+
+          <!-- Shopping Aricanduva -->
+          <div class="shopping-info">
+              <h3>Aricanduva</h3>
+              <ul class="sessoes-list">
+                  <li>Sala 5 - 14:40 (DUB) <a href="assentos.html">Compre Aqui</a></li>
+                  <li>Sala 2 - 18:10 (DUB) <a href="assentos.html">Compre Aqui</a></li>
+                  <li>Sala 3 - 21:30 (DUB) <a href="assentos.html">Compre Aqui</a></li>
+              </ul>
+          </div>
+
+          <!-- Shopping Boulevard Tatuape -->
+          <div class="shopping-info">
+              <h3>Boulevard Tatuape</h3>
+              <ul class="sessoes-list">
+                  <li>Sala 2 - 13:45 (DUB) <a href="assentos.html">Compre Aqui</a></li>
+                  <li>Sala 2 - 17:15 (DUB) <a href="assentos.html">Compre Aqui</a></li>
+                  <li>Sala 3 - 20:30 (DUB) <a href="assentos.html">Compre Aqui</a></li>
+              </ul>
+          </div>
+
+          <div class="shopping-info">
+            <h3>Center Norte</h3>
+            <ul class="sessoes-list">
+                <li>Sala 1 - 14:00 (DUB) <a href="assentos.html">Compre Aqui</a></li>
+                <li>Sala 1 - 17:40 (DUB) <a href="assentos.html">Compre Aqui</a></li>
+                <li>Sala 2 - 21:00 (DUB) <a href="assentos.html">Compre Aqui</a></li>
+            </ul>
+        </div>
+
+        <div class="shopping-info">
+          <h3>Interlagos</h3>
+          <ul class="sessoes-list">
+              <li>Sala 2 - 14:50 (DUB) <a href="assentos.html">Compre Aqui</a></li>
+              <li>Sala 2 - 18:10 (DUB) <a href="assentos.html">Compre Aqui</a></li>
+              <li>Sala 5 - 21:30 (DUB) <a href="assentos.html">Compre Aqui</a></li>
+          </ul>
+      </div>
+
+      <div class="shopping-info">
+        <h3>SP Market</h3>
+        <ul class="sessoes-list">
+            <li>Sala 4 - 13:55 (DUB) <a href="assentos.html">Compre Aqui</a></li>
+            <li>Sala 4 - 17:10 (DUB) <a href="assentos.html">Compre Aqui</a></li>
+            <li>Sala 2- 20:30 (DUB) <a href="assentos.html">Compre Aqui</a></li>
+        </ul>
+    </div>>
+      </div>
+      <!-- Fim da Seção de Sessões por Shopping -->
+
+  </div>
+
+</body>
+</html>
